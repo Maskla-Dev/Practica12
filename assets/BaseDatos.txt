@@ -1,0 +1,52 @@
+Especialidades
+Ingenieria Sistemas Computacionales:Especialidades
+Inteligencia Artificial:Especialidades
+Ciencias de Datos:Especialidades
+Trabajo Terminal 2:Ingenieria Sistemas Computacionales
+Estancia Profesional:Ingenieria Sistemas Computacionales
+Gestion Empresarial:Estancia Profesional
+Desarrollo de Habilidades Sociales para la Alta Direccion:Gestion Empresarial
+Liderazgo Personal:Gestion Empresarial
+Trabajo Terminal 1:Trabajo Terminal 2
+Sistemas Distribuidos:Trabajo Terminal 1
+Gestion Empresarial:Estancia Profesional
+Optativa B2:Estancia Profesional
+Optativa A2:Estancia Profesional
+Desarrollo De Aplicaciones Moviles Nativas:Trabajo Terminal 1
+Sistemas Distribuidos:Trabajo Terminal 1
+Sistemas en Chip:Desarrollo De Aplicaciones Moviles Nativas
+Metodos Cuantitativos para la toma de Desiciones:Gestion Empresarial
+Ingenieria de Software:Estancia Profesional
+Inteligencia Artificial (Materia):Trabajo Terminal 1
+Aplicaciones para Comunicaciones en Red:Sistemas Distribuidos
+Procesamiento Digital de Senales:Sistemas en Chip
+Instrumentacion y Control:Sistemas en Chip
+Arquitectura de Computadoras:Sistemas en Chip
+Analisis y Diseno de Sistemas:Ingenieria de Software
+Formulacion y Evaluacion de Proyectos Informaticos:Ingenieria de Software
+Compiladores:Inteligencia Artificial (Materia)
+Redes de Computadoras:Aplicaciones para Comunicaciones en Red
+Matematicas Avanzadas Para La Ingenieria:Procesamiento Digital de Senales
+Electronica Analogica:Instrumentacion y Control
+Diseno de Sistemas Digitales:Arquitectura de Computadoras
+Tecnologias para el Desarrollo Web:Redes de Computadoras
+Sistemas Operativos:Redes de Computadoras
+Teoria de la Computacion:Compiladores
+Ecuaciones Diferenciales:Matematicas Avanzadas Para La Ingenieria
+Circuitos Electricos:Electronica Analogica
+Fundamentos del Diseno Digital:Diseno de Sistemas Digitales
+Bases de Datos:Tecnologias para el Desarrollo Web
+Finanzas Empresariales:Formulacion y Evaluacion de Proyectos Informaticos
+Paradigmas de Programacion:Sistemas Operativos
+Analisis y Diseno de Algoritmos:Paradigmas de Programacion
+Algebra Lineal:Ecuaciones Diferenciales
+Calculo Aplicado:Ecuaciones Diferenciales
+Mecanica y Electromagnetismo:Circuitos Electricos
+Calculo:Calculo Aplicado
+Analisis Vectorial:Mecanica y Electromagnetismo
+Matematicas Discretas:Fundamentos del Diseno Digital
+Ingenieria, Etica y Sociedad:Liderazgo Personal
+Fundamentos Economicos:Finanzas Empresariales
+Computacion Oral y Escrita:Ingenieria, Etica y Sociedad
+Algoritmos y Estructuras de Datos:Analisis y Diseno de Algoritmos
+Fundamentos de Programacion:Algoritmos y Estructuras de Datos

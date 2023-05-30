@@ -1,0 +1,6 @@
+add_executable(PruebasConstructor PruebasConstructor.c)
+target_link_libraries(PruebasConstructor PUBLIC Nucleo)
+target_include_directories(PruebasConstructor PUBLIC ${CMAKE_SOURCE_DIR}/include)
+add_test(NAME PruebaExistenciaArchivo COMMAND PruebasConstructor 1 "B:\\BaseDatos.txt")
+add_test(NAME PruebaNombreRaiz COMMAND PruebasConstructor 2 "B:\\BaseDatos.txt")
+add_test(NAME PruebaConstruirArbol COMMAND PruebasConstructor 3 "B:\\BaseDatos.txt")

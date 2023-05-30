@@ -1,0 +1,5 @@
+add_subdirectory(Nucleo)
+add_executable(Practica12 main.c)
+include_directories(${CMAKE_SOURCE_DIR}/include)
+target_link_libraries(Practica12 PUBLIC Nucleo)
+target_include_directories(Practica12 PUBLIC ${CMAKE_SOURCE_DIR}/include)
