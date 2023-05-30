@@ -48,7 +48,7 @@ bool insertarEnArbol(Arbol *arbol, char *objetivo, NodoArbol *nodo) {
     if (arbol == NULL || nodo == NULL) {
         return false;
     }
-    nodo_objetivo = buscarNodo(arbol->raiz, objetivo);
+    nodo_objetivo = buscarNodoConClave(arbol->raiz, objetivo);
     if (nodo_objetivo == NULL) {
         return false;
     }
@@ -67,7 +67,7 @@ bool insertarEnArbol(Arbol *arbol, char *objetivo, NodoArbol *nodo) {
     return true;
 }
 
-NodoArbol *buscarNodo(NodoArbol *nodo, char *clave) {
+NodoArbol *buscarNodoConClave(NodoArbol *nodo, char *clave) {
     NodoArbol *nodo_objetivo;
     if (nodo == NULL) {
         return NULL;
@@ -80,7 +80,7 @@ NodoArbol *buscarNodo(NodoArbol *nodo, char *clave) {
     }
     irAlInicioNA(nodo->hijos);
     while (nodo->hijos->actual != NULL) {
-        nodo_objetivo = buscarNodo(nodo->hijos->actual->nodo, clave);
+        nodo_objetivo = buscarNodoConClave(nodo->hijos->actual->nodo, clave);
         if (nodo_objetivo != NULL) {
             return nodo_objetivo;
         }
@@ -106,4 +106,73 @@ void imprimirArbol(NodoArbol *nodo_arbol) {
         imprimirArbol(nodo_arbol->hijos->actual->nodo);
         irAlSiguienteNA(nodo_arbol->hijos);
     }
+}
+
+bool cambiarEstadosDesdeLista(struct ListaNodosArbol *lista, Estado nuevo_estado) {
+    if (lista == NULL) {
+        return false;
+    }
+    irAlInicioNA(lista);
+    while (lista->actual != NULL) {
+        lista->actual->nodo->estado = nuevo_estado;
+        irAlSiguienteNA(lista);
+        free(retirarNodoListaNA(lista, lista->actual->nodo->rotulo));
+    }
+    return true;
+}
+
+void obtenerMateriasDisponibles(NodoArbol *nodo, struct ListaNodosArbol *lista) {
+    if (nodo == NULL || lista == NULL) {
+        return;
+    }
+    if (nodo->hijos == NULL) {
+        return;
+    }
+    if (sePuedeCursar(nodo)) {
+        insertarNodoListaNA(lista, nodo);
+    }
+    irAlInicioNA(nodo->hijos);
+    while (nodo->hijos->actual != NULL) {
+        obtenerMateriasDisponibles(nodo->hijos->actual->nodo, lista);
+        irAlSiguienteNA(nodo->hijos);
+    }
+}
+
+bool sePuedeCursar(NodoArbol *nodo) {
+    if (nodo == NULL) {
+        return false;
+    }
+    if (nodo->estado == COMPLETADO || nodo->tipo != MATERIA) {
+        return false;
+    }
+    if (nodo->hijos == NULL) {
+        return true;
+    }
+    irAlInicioNA(nodo->hijos);
+    while (nodo->hijos->actual != NULL) {
+        if (nodo->hijos->actual->nodo->estado == NO_CURSADO) {
+            return false;
+        }
+        irAlSiguienteNA(nodo->hijos);
+    }
+    return true;
+}
+
+bool especialidadTerminada(NodoArbol *nodo) {
+    bool cumple = true;
+    if (nodo == NULL) {
+        return true;
+    }
+    if (nodo->tipo == ESPECIALIDAD) {
+        if (nodo->hijos == NULL) {
+            return false;
+        }
+        irAlInicioNA(nodo->hijos);
+        while (nodo->hijos->actual != NULL) {
+            cumple = cumple && especialidadTerminada(nodo->hijos->actual->nodo);
+            irAlSiguienteNA(nodo->hijos);
+        }
+    }
+    cumple = cumple && nodo->tipo == MATERIA ? nodo->estado == CURSADO : true;
+    return cumple;
 }

@@ -45,7 +45,7 @@ NodoArbol *crearNodoArbol(char *contenido, TipoNodo tipo);
 void cambiarAltura(Arbol *arbol, size_t altura);
 
 //Devuelve el nodo cuyo nombre sea clave, si no existe devuelve NULL
-NodoArbol *buscarNodo(NodoArbol *nodo, char *clave);
+NodoArbol *buscarNodoConClave(NodoArbol *nodo, char *clave);
 
 //Inserta un nodo en el arbol, objetivo es el nombre del padre del nodo, si el padre no existe devuelve false, caso contrario devuelve true
 bool insertarEnArbol(Arbol *arbol, char *objetivo, NodoArbol *nodo);
@@ -61,5 +61,12 @@ bool destruirNodo(NodoArbol *nodo);
 //Imprime el arbol desde el nodo indicado
 void imprimirArbol(NodoArbol *nodo_arbol);
 
+bool cambiarEstadosDesdeLista(struct ListaNodosArbol *lista, Estado nuevo_estado);
+
+void obtenerMateriasDisponibles(NodoArbol *nodo, struct ListaNodosArbol *lista);
+
+bool sePuedeCursar(NodoArbol *nodo);
+
+bool especialidadTerminada(NodoArbol *nodo);
 
 #endif //PRACTICA12_ARBOLES_H

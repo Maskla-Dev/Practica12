@@ -3,6 +3,7 @@
 //
 #include "ListaNodosArbol.h"
 #include <stdlib.h>
+#include <string.h>
 
 NodoLista_NA *crearNodoListaNA(struct NodoArbol *nodo) {
     NodoLista_NA *nodo_lista = (NodoLista_NA *) malloc(sizeof(NodoLista_NA));
@@ -73,4 +74,27 @@ bool insertarNodoListaNA(Lista_NA *lista, struct NodoArbol *nodo) {
     }
     lista->tam++;
     return true;
+}
+
+NodoLista_NA *retirarNodoListaNA(Lista_NA *lista, char *clave) {
+    if (lista == NULL || clave == NULL) {
+        return NULL;
+    }
+    Lista_NA lista_aux;
+    lista_aux.inicio = lista->inicio;
+    lista_aux.actual = lista->inicio;
+    NodoLista_NA *nodo_retirado = NULL;
+    irAlInicioNA(lista);
+    while (lista->actual != NULL) {
+        if (strcmp(lista->actual->nodo->rotulo, clave) == 0) {
+            while (lista_aux.actual->siguiente != lista->actual) {
+                irAlSiguienteNA(&lista_aux);
+            }
+            nodo_retirado = lista->actual;
+            lista_aux.actual->siguiente = lista->actual->siguiente;
+            lista->tam--;
+        }
+        irAlSiguienteNA(lista);
+    }
+    return nodo_retirado;
 }
