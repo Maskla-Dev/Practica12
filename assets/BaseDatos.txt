@@ -2,51 +2,61 @@ Especialidades
 Ingenieria Sistemas Computacionales:Especialidades
 Inteligencia Artificial:Especialidades
 Ciencias de Datos:Especialidades
-Trabajo Terminal 2:Ingenieria Sistemas Computacionales
-Estancia Profesional:Ingenieria Sistemas Computacionales
-Gestion Empresarial:Estancia Profesional
-Desarrollo de Habilidades Sociales para la Alta Direccion:Gestion Empresarial
-Liderazgo Personal:Gestion Empresarial
-Trabajo Terminal 1:Trabajo Terminal 2
-Sistemas Distribuidos:Trabajo Terminal 1
-Gestion Empresarial:Estancia Profesional
-Optativa B2:Estancia Profesional
-Optativa A2:Estancia Profesional
-Desarrollo De Aplicaciones Moviles Nativas:Trabajo Terminal 1
-Sistemas Distribuidos:Trabajo Terminal 1
-Sistemas en Chip:Desarrollo De Aplicaciones Moviles Nativas
-Metodos Cuantitativos para la toma de Desiciones:Gestion Empresarial
-Ingenieria de Software:Estancia Profesional
-Inteligencia Artificial (Materia):Trabajo Terminal 1
-Aplicaciones para Comunicaciones en Red:Sistemas Distribuidos
-Procesamiento Digital de Senales:Sistemas en Chip
-Instrumentacion y Control:Sistemas en Chip
-Arquitectura de Computadoras:Sistemas en Chip
-Analisis y Diseno de Sistemas:Ingenieria de Software
-Formulacion y Evaluacion de Proyectos Informaticos:Ingenieria de Software
-Compiladores:Inteligencia Artificial (Materia)
-Redes de Computadoras:Aplicaciones para Comunicaciones en Red
-Matematicas Avanzadas Para La Ingenieria:Procesamiento Digital de Senales
-Electronica Analogica:Instrumentacion y Control
-Diseno de Sistemas Digitales:Arquitectura de Computadoras
-Tecnologias para el Desarrollo Web:Redes de Computadoras
-Sistemas Operativos:Redes de Computadoras
-Teoria de la Computacion:Compiladores
-Ecuaciones Diferenciales:Matematicas Avanzadas Para La Ingenieria
-Circuitos Electricos:Electronica Analogica
-Fundamentos del Diseno Digital:Diseno de Sistemas Digitales
-Bases de Datos:Tecnologias para el Desarrollo Web
-Finanzas Empresariales:Formulacion y Evaluacion de Proyectos Informaticos
-Paradigmas de Programacion:Sistemas Operativos
-Analisis y Diseno de Algoritmos:Paradigmas de Programacion
-Algebra Lineal:Ecuaciones Diferenciales
-Calculo Aplicado:Ecuaciones Diferenciales
-Mecanica y Electromagnetismo:Circuitos Electricos
-Calculo:Calculo Aplicado
-Analisis Vectorial:Mecanica y Electromagnetismo
-Matematicas Discretas:Fundamentos del Diseno Digital
-Ingenieria, Etica y Sociedad:Liderazgo Personal
-Fundamentos Economicos:Finanzas Empresariales
-Computacion Oral y Escrita:Ingenieria, Etica y Sociedad
-Algoritmos y Estructuras de Datos:Analisis y Diseno de Algoritmos
-Fundamentos de Programacion:Algoritmos y Estructuras de Datos
+Semestre 8:Ingenieria Sistemas Computacionales
+Estancia Profesional:Semestre 8
+Desarrollo de Habilidades Sociales para la Alta Direccion:Semestre 8
+Trabajo Terminal 2:Semestre 8
+Gestion Empresarial:Semestre 8
+Liderazgo Personal:Semestre 8
+Semestre 7:Semestre 8
+Desarrollo de Aplicaciones Moviles Nativas:Semestre 7
+Optativa A2:Semestre 7
+Optativa B2:Semestre 7
+Trabajo Terminal 1:Semestre 7
+Sistemas Distribuidos:Semestre 7
+Admimistracion de Servicios en Red:Semestre 7
+Semestre 6:Semestre 7
+Sistemas en Chip:Semestre 6
+Optativa A1:Semestre 6
+Optativa B1:Semestre 6
+Metodos Cuantitativos para la Toma de decisiones:Semestre 6
+Ingenieria de Software:Semestre 6
+Inteligencia Artificial:Semestre 6
+Aplicaciones para Comunicaciones en Red:Semestre 6
+Semestre 5:Semestre 6
+Procesamiento Digital de Señales:Semestre 5
+Instrumentacion y Control:Semestre 5
+Arquitectura de Computadoras:Semestre 5
+Analisis y Diseño de Sistemas:Semestre 5
+Formulacion y Evaluacion de Proyectos Informaticos:Semestre 5
+Compiladores:Semestre 5
+Redes de Computadoras:Semestre 5
+Semestre 4:Semestre 5
+Probabilidad y Estaditica:Semestre 4
+Matematicas Avanzadas para la Ingenieria:Semestre 4
+Electronica Analogica:Semestre 4
+Diseño de Sistemas Digitales:Semestre 4
+Tecnologia para el Desarrollo de Aplicaciones Web:Semestre 4
+Sistemas Operativos:Semestre 4
+Teoria de la computacion:Semestre 4
+Semestre 3:Semestre 4
+Ecuaciones Diferenciales:Semestre 3
+Circuitos Electricos:Semestre 3
+Fundamentos de Diseño Digital:Semestre 3
+Base de Datos:Semestre 3
+Finanzas Empresariales:Semestre 3
+Paradigmas de la Programacion:Semestre 3
+Analisis y Diseño de Algoritmos:Semestre 3
+Semestre 2:Semestre 3
+Algebra Lineal:Semestre 2
+Calculo Aplicado:Semestre 2
+Mecanica y Electromagnetismo:Semestre 2
+Ingenieria, Etica y Sociedad:Semestre 2
+Fundamentos Economicos:Semestre 2
+Algoritmos y Estructura de Datos:Semestre 2
+Semestre 1:Semestre 2
+Calculo:Semestre 1
+Analisis Vectorial:Semestre 1
+Matematicas Discretas:Semestre 1
+Comunicacion Oral y Escrita:Semestre 1
+Fundamentos de Programacion:Semestre 1
