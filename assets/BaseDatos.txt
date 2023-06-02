@@ -60,3 +60,56 @@ Analisis Vectorial:Semestre 1
 Matematicas Discretas:Semestre 1
 Comunicacion Oral y Escrita:Semestre 1
 Fundamentos de Programacion:Semestre 1
+
+Semestre 8:Inteligencia Artificial
+Estancia Profesional:Semestre 8
+Desarrollo de Habilidades Sociales para la Alta Direccion:Semestre 8
+Trabajo Terminal 2:Semestre 8
+Gestion Empresarial:Semestre 8
+Semestre 7:Semestre 8
+Reconocimiento de Voz:Semestre 7
+Trabajo Terminal 1:Semestre 7
+Optativa C:Semestre 7
+Optativa D:Semestre 7
+Semestre 6:Semestre 7
+Computo Paralelo:Semestre 6
+Redes Neuronales y Aprendizaje Profundo:Semestre 6
+Ingenieria de Software para Sistemas Inteligentes:Semestre 6
+Optativa A:Semestre 6
+Optativa B:Semestre 6
+Metodologia de la Investigacion y Divulgacion Cientifica:Semestre 6
+Semestre 5:Semestre 6
+Aprendizaje Maquina:Semestre 5
+Vision Artificial:Semestre 5
+Teoria de la Computacion:Semestre 5
+Procesamiento de Señales:Semestre 5
+Algoritmos Bioinspirados:Semestre 5
+Tecnologias de Lenguaje Natural:Semestre 5
+Semestre 4:Semestre 5
+Fundamentos de Inteligencia Artificial:Semestre 4
+Probabilidad y Estaditica:Semestre 4
+Matematicas Avanzadas para la Ingenieria:Semestre 4
+Tecnologia para el Desarrollo de Aplicaciones Web:Semestre 4
+Analisis y Diseño de Sistemas:Semestre 4
+Procesamiento Digital de Imagenes:Semestre 4
+Semestre 3:Semestre 4
+Analisis y Diseño de Algoritmos:Semestre 3
+Paradigmas de la Programacion:Semestre 3
+Ecuaciones Diferenciales:Semestre 3
+Base de Datos:Semestre 3
+Diseño de Sistemas Digitales:Semestre 3
+Liderazgo Personal:Semestre 3
+Semestre 2:Semestre 3
+Algoritmos y Estructura de Datos:Semestre 2
+Fundamentos de Diseño Digital:Semestre 2
+Calculo Multivariable:Semestre 2
+Ingenieria, Etica y Sociedad:Semestre 2
+Algebra Lineal:Semestre 2
+Finanzas Empresariales:Semestre 2
+Semestre 1:Semestre 2
+Fundamentos de Programacion:Semestre 1
+Matematicas Discretas:Semestre 1
+Calculo:Semestre 1
+Comunicacion Oral y Escrita:Semestre 1
+Mecanica y Electromagnetismo:Semestre 1
+Fundamentos Economicos:Semestre 1
