@@ -62,7 +62,7 @@ bool insertarEnArbol(Arbol *arbol, char *objetivo, NodoArbol *nodo) {
     if (nodo->profundidad > arbol->altura) {
         arbol->altura = nodo->profundidad;
     }
-    nodo->estado = (nodo->tipo == MATERIA) ? NO_COMPLETADO : NO_CURSADO;
+    nodo->estado = (nodo->tipo == MATERIA) ? NO_CURSADO : NO_COMPLETADO;
     insertarNodoListaNA(nodo_objetivo->hijos, nodo);
     return true;
 }
@@ -121,39 +121,41 @@ bool cambiarEstadosDesdeLista(struct ListaNodosArbol *lista, Estado nuevo_estado
     return true;
 }
 
-void obtenerMateriasDisponibles(NodoArbol *nodo, struct ListaNodosArbol *lista) {
-    if (nodo == NULL || lista == NULL) {
-        return;
+struct ListaNodosArbol *obtenerMateriasDisponibles(Arbol *arbol, char *semestre) {
+    NodoArbol *nodo_semestre = buscarNodoConClave(arbol->raiz, semestre);
+    struct ListaNodosArbol *lista_materias_disponibles = crearListaNA();
+    if (nodo_semestre == NULL) {
+        free(lista_materias_disponibles);
+        return NULL;
     }
-    if (nodo->hijos == NULL) {
-        return;
+    if (nodo_semestre->hijos == NULL) {
+        free(lista_materias_disponibles);
+        return NULL;
     }
-    if (sePuedeCursar(nodo)) {
-        insertarNodoListaNA(lista, nodo);
+    irAlInicioNA(nodo_semestre->hijos);
+    while (nodo_semestre->hijos->actual != NULL) {
+        if (nodo_semestre->hijos->actual->nodo->estado == NO_CURSADO) {
+            insertarNodoListaNA(lista_materias_disponibles, nodo_semestre->hijos->actual->nodo);
+        }
+        irAlSiguienteNA(nodo_semestre->hijos);
     }
-    irAlInicioNA(nodo->hijos);
-    while (nodo->hijos->actual != NULL) {
-        obtenerMateriasDisponibles(nodo->hijos->actual->nodo, lista);
-        irAlSiguienteNA(nodo->hijos);
-    }
+    return lista_materias_disponibles;
 }
 
-bool sePuedeCursar(NodoArbol *nodo) {
-    if (nodo == NULL) {
+bool seHaCursadoSemestreCompleto(Arbol *arbol, char *semestre) {
+    NodoArbol *nodo_semestre = buscarNodoConClave(arbol->raiz, semestre);
+    if (nodo_semestre == NULL) {
         return false;
     }
-    if (nodo->estado == COMPLETADO || nodo->tipo != MATERIA) {
+    if (nodo_semestre->hijos == NULL) {
         return false;
     }
-    if (nodo->hijos == NULL) {
-        return true;
-    }
-    irAlInicioNA(nodo->hijos);
-    while (nodo->hijos->actual != NULL) {
-        if (nodo->hijos->actual->nodo->estado == NO_CURSADO) {
+    irAlInicioNA(nodo_semestre->hijos);
+    while (nodo_semestre->hijos->actual != NULL) {
+        if (nodo_semestre->hijos->actual->nodo->estado != CURSADO) {
             return false;
         }
-        irAlSiguienteNA(nodo->hijos);
+        irAlSiguienteNA(nodo_semestre->hijos);
     }
     return true;
 }

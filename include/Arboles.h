@@ -7,6 +7,7 @@
 
 #include "ListaNodosArbol.h"
 #include "Utilidades.h"
+#include <stddef.h>
 
 typedef enum TipoNodo {
     RAIZ,
@@ -63,9 +64,9 @@ void imprimirArbol(NodoArbol *nodo_arbol);
 
 bool cambiarEstadosDesdeLista(struct ListaNodosArbol *lista, Estado nuevo_estado);
 
-void obtenerMateriasDisponibles(NodoArbol *nodo, struct ListaNodosArbol *lista);
+struct ListaNodosArbol *obtenerMateriasDisponibles(Arbol *arbol, char *semestre);
 
-bool sePuedeCursar(NodoArbol *nodo);
+bool seHaCursadoSemestreCompleto(Arbol *arbol, char *semestre);
 
 bool especialidadTerminada(NodoArbol *nodo);
 

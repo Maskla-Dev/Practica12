@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Constructor.h"
+#include "ListaNodosArbol.h"
 
 int main(int argc, char *argv[]) {
     int test_type = 0;
@@ -28,6 +29,12 @@ int main(int argc, char *argv[]) {
             arbol = construirArbol(argv[2]);
             imprimirArbol(arbol->raiz);
             return arbol == NULL ? EXIT_FAILURE : EXIT_SUCCESS;
+        case 5:
+            arbol = construirArbol(argv[2]);
+            NodoArbol *especialidad = buscarNodoConClave(arbol->raiz, "Ingenieria Sistemas Computacionales");
+            struct ListaNodosArbol *materias = crearListaNA();
+            obtenerMateriasDisponibles(especialidad, materias);
+            return EXIT_SUCCESS;
         default:
             printf("No se ha introducido un tipo de prueba válido\n");
             return EXIT_FAILURE;

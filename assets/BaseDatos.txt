@@ -1,52 +1,113 @@
 Especialidades
 Ingenieria Sistemas Computacionales:Especialidades
 Inteligencia Artificial:Especialidades
-Ciencias de Datos:Especialidades
-Trabajo Terminal 2:Ingenieria Sistemas Computacionales
-Estancia Profesional:Ingenieria Sistemas Computacionales
-Gestion Empresarial:Estancia Profesional
-Desarrollo de Habilidades Sociales para la Alta Direccion:Gestion Empresarial
-Liderazgo Personal:Gestion Empresarial
-Trabajo Terminal 1:Trabajo Terminal 2
-Sistemas Distribuidos:Trabajo Terminal 1
-Gestion Empresarial:Estancia Profesional
-Optativa B2:Estancia Profesional
-Optativa A2:Estancia Profesional
-Desarrollo De Aplicaciones Moviles Nativas:Trabajo Terminal 1
-Sistemas Distribuidos:Trabajo Terminal 1
-Sistemas en Chip:Desarrollo De Aplicaciones Moviles Nativas
-Metodos Cuantitativos para la toma de Desiciones:Gestion Empresarial
-Ingenieria de Software:Estancia Profesional
-Inteligencia Artificial (Materia):Trabajo Terminal 1
-Aplicaciones para Comunicaciones en Red:Sistemas Distribuidos
-Procesamiento Digital de Senales:Sistemas en Chip
-Instrumentacion y Control:Sistemas en Chip
-Arquitectura de Computadoras:Sistemas en Chip
-Analisis y Diseno de Sistemas:Ingenieria de Software
-Formulacion y Evaluacion de Proyectos Informaticos:Ingenieria de Software
-Compiladores:Inteligencia Artificial (Materia)
-Redes de Computadoras:Aplicaciones para Comunicaciones en Red
-Matematicas Avanzadas Para La Ingenieria:Procesamiento Digital de Senales
-Electronica Analogica:Instrumentacion y Control
-Diseno de Sistemas Digitales:Arquitectura de Computadoras
-Tecnologias para el Desarrollo Web:Redes de Computadoras
-Sistemas Operativos:Redes de Computadoras
-Teoria de la Computacion:Compiladores
-Ecuaciones Diferenciales:Matematicas Avanzadas Para La Ingenieria
-Circuitos Electricos:Electronica Analogica
-Fundamentos del Diseno Digital:Diseno de Sistemas Digitales
-Bases de Datos:Tecnologias para el Desarrollo Web
-Finanzas Empresariales:Formulacion y Evaluacion de Proyectos Informaticos
-Paradigmas de Programacion:Sistemas Operativos
-Analisis y Diseno de Algoritmos:Paradigmas de Programacion
-Algebra Lineal:Ecuaciones Diferenciales
-Calculo Aplicado:Ecuaciones Diferenciales
-Mecanica y Electromagnetismo:Circuitos Electricos
-Calculo:Calculo Aplicado
-Analisis Vectorial:Mecanica y Electromagnetismo
-Matematicas Discretas:Fundamentos del Diseno Digital
-Ingenieria, Etica y Sociedad:Liderazgo Personal
-Fundamentos Economicos:Finanzas Empresariales
-Computacion Oral y Escrita:Ingenieria, Etica y Sociedad
-Algoritmos y Estructuras de Datos:Analisis y Diseno de Algoritmos
-Fundamentos de Programacion:Algoritmos y Estructuras de Datos
+Semestre 8 (ISC):Ingenieria Sistemas Computacionales
+Estancia Profesional:Semestre 8 (ISC)
+Desarrollo de Habilidades Sociales para la Alta Direccion:Semestre 8 (ISC)
+Trabajo Terminal 2:Semestre 8 (ISC)
+Gestion Empresarial:Semestre 8 (ISC)
+Liderazgo Personal:Semestre 8 (ISC)
+Semestre 7 (ISC):Semestre 8 (ISC)
+Desarrollo de Aplicaciones Moviles Nativas:Semestre 7 (ISC)
+Optativa A2:Semestre 7 (ISC)
+Optativa B2:Semestre 7 (ISC)
+Trabajo Terminal 1:Semestre 7 (ISC)
+Sistemas Distribuidos:Semestre 7 (ISC)
+Admimistracion de Servicios en Red:Semestre 7 (ISC)
+Semestre 6 (ISC):Semestre 7 (ISC)
+Sistemas en Chip:Semestre 6 (ISC)
+Optativa A1:Semestre 6 (ISC)
+Optativa B1:Semestre 6 (ISC)
+Metodos Cuantitativos para la Toma de decisiones:Semestre 6 (ISC)
+Ingenieria de Software:Semestre 6 (ISC)
+Inteligencia Artificial (Materia):Semestre 6 (ISC)
+Aplicaciones para Comunicaciones en Red:Semestre 6 (ISC)
+Semestre 5 (ISC):Semestre 6 (ISC)
+Procesamiento Digital de Señales:Semestre 5 (ISC)
+Instrumentacion y Control:Semestre 5 (ISC)
+Arquitectura de Computadoras:Semestre 5 (ISC)
+Analisis y Diseño de Sistemas:Semestre 5 (ISC)
+Formulacion y Evaluacion de Proyectos Informaticos:Semestre 5 (ISC)
+Compiladores:Semestre 5 (ISC)
+Redes de Computadoras:Semestre 5 (ISC)
+Semestre 4 (ISC):Semestre 5 (ISC)
+Probabilidad y Estaditica:Semestre 4 (ISC)
+Matematicas Avanzadas para la Ingenieria:Semestre 4 (ISC)
+Electronica Analogica:Semestre 4 (ISC)
+Diseño de Sistemas Digitales:Semestre 4 (ISC)
+Tecnologia para el Desarrollo de Aplicaciones Web:Semestre 4 (ISC)
+Sistemas Operativos:Semestre 4 (ISC)
+Teoria de la computacion:Semestre 4 (ISC)
+Semestre 3 (ISC):Semestre 4 (ISC)
+Ecuaciones Diferenciales:Semestre 3 (ISC)
+Circuitos Electricos:Semestre 3 (ISC)
+Fundamentos de Diseño Digital:Semestre 3 (ISC)
+Base de Datos:Semestre 3 (ISC)
+Finanzas Empresariales:Semestre 3 (ISC)
+Paradigmas de la Programacion:Semestre 3 (ISC)
+Analisis y Diseño de Algoritmos:Semestre 3 (ISC)
+Semestre 2 (ISC):Semestre 3 (ISC)
+Algebra Lineal:Semestre 2 (ISC)
+Calculo Aplicado:Semestre 2 (ISC)
+Mecanica y Electromagnetismo:Semestre 2 (ISC)
+Ingenieria, Etica y Sociedad:Semestre 2 (ISC)
+Fundamentos Economicos:Semestre 2 (ISC)
+Algoritmos y Estructura de Datos:Semestre 2 (ISC)
+Semestre 1 (ISC):Semestre 2 (ISC)
+Calculo:Semestre 1 (ISC)
+Analisis Vectorial:Semestre 1 (ISC)
+Matematicas Discretas:Semestre 1 (ISC)
+Comunicacion Oral y Escrita:Semestre 1 (ISC)
+Fundamentos de Programacion:Semestre 1 (ISC)
+Semestre 8 (IA):Inteligencia Artificial
+Estancia Profesional:Semestre 8 (IA)
+Desarrollo de Habilidades Sociales para la Alta Direccion:Semestre 8 (IA)
+Trabajo Terminal 2:Semestre 8 (IA)
+Gestion Empresarial:Semestre 8 (IA)
+Semestre 7 (IA):Semestre 8 (IA)
+Reconocimiento de Voz:Semestre 7 (IA)
+Trabajo Terminal 1:Semestre 7 (IA)
+Optativa C:Semestre 7 (IA)
+Optativa D:Semestre 7 (IA)
+Semestre 6 (IA):Semestre 7 (IA)
+Computo Paralelo:Semestre 6 (IA)
+Redes Neuronales y Aprendizaje Profundo:Semestre 6 (IA)
+Ingenieria de Software para Sistemas Inteligentes:Semestre 6 (IA)
+Optativa A:Semestre 6 (IA)
+Optativa B:Semestre 6 (IA)
+Metodologia de la Investigacion y Divulgacion Cientifica:Semestre 6 (IA)
+Semestre 5 (IA):Semestre 6 (IA)
+Aprendizaje Maquina:Semestre 5 (IA)
+Vision Artificial:Semestre 5 (IA)
+Teoria de la Computacion:Semestre 5 (IA)
+Procesamiento de Señales:Semestre 5 (IA)
+Algoritmos Bioinspirados:Semestre 5 (IA)
+Tecnologias de Lenguaje Natural:Semestre 5 (IA)
+Semestre 4 (IA):Semestre 5 (IA)
+Fundamentos de Inteligencia Artificial:Semestre 4 (IA)
+Probabilidad y Estaditica:Semestre 4 (IA)
+Matematicas Avanzadas para la Ingenieria:Semestre 4 (IA)
+Tecnologia para el Desarrollo de Aplicaciones Web:Semestre 4 (IA)
+Analisis y Diseño de Sistemas:Semestre 4 (IA)
+Procesamiento Digital de Imagenes:Semestre 4 (IA)
+Semestre 3 (IA):Semestre 4 (IA)
+Analisis y Diseño de Algoritmos:Semestre 3 (IA)
+Paradigmas de la Programacion:Semestre 3 (IA)
+Ecuaciones Diferenciales:Semestre 3 (IA)
+Base de Datos:Semestre 3 (IA)
+Diseño de Sistemas Digitales:Semestre 3 (IA)
+Liderazgo Personal:Semestre 3 (IA)
+Semestre 2 (IA):Semestre 3 (IA)
+Algoritmos y Estructura de Datos:Semestre 2 (IA)
+Fundamentos de Diseño Digital:Semestre 2 (IA)
+Calculo Multivariable:Semestre 2 (IA)
+Ingenieria, Etica y Sociedad:Semestre 2 (IA)
+Algebra Lineal:Semestre 2 (IA)
+Finanzas Empresariales:Semestre 2 (IA)
+Semestre 1 (IA):Semestre 2 (IA)
+Fundamentos de Programacion:Semestre 1 (IA)
+Matematicas Discretas:Semestre 1 (IA)
+Calculo:Semestre 1 (IA)
+Comunicacion Oral y Escrita:Semestre 1 (IA)
+Mecanica y Electromagnetismo:Semestre 1 (IA)
+Fundamentos Economicos:Semestre 1 (IA)

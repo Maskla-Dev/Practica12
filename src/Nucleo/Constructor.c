@@ -110,5 +110,5 @@ void obtenerNombresNodo(Nombres *contenedor, char *fragmento_texto, size_t tam_f
 }
 
 bool esNodoEspecialidades(char *nombre_padre) {
-    return strcmp(nombre_padre, NOMBRE_RAIZ) == 0;
+    return textosIguales(nombre_padre, NOMBRE_RAIZ);
 }
